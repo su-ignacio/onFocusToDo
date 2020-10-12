@@ -1,5 +1,5 @@
 # onFocusToDo
-A partir del enunciado propuesto por la Selectium se presenta una APP mobile realizada en React Native con las siguientes especificaciones: 
+A partir del enunciado propuesto se presenta una APP mobile realizada en React Native con las siguientes especificaciones: 
 - Redux 
 - Redux-Thunk 
 - Hooks de React Native 
