@@ -38,19 +38,20 @@ const TaskForm = ({ initialValues, action, callback}) => {
         <Text h4 h4Style={styles.head}>
           User Id
         </Text>
-          <InputSpinner
-            min={0}
-            step={1}
-            colorPress={'#7FFF00'}
-            colorMin={'#40c5f4'}
-            height={30}
-            width={100}
-            initialValue={userId}
-            value={userId}
-            onChange={(num) => {
-              setUserId(num);
-            }}
-          />
+
+        <InputSpinner
+          min={0}
+          step={1}
+          colorPress={'#7FFF00'}
+          colorMin={'#40c5f4'}
+          height={35}
+          width={120}
+          initialValue={userId}
+          value={userId}
+          onChange={(num) => {
+            setUserId(num);
+          }}
+        />
       </CardSection>
       <Spacer />
 
@@ -64,7 +65,7 @@ const TaskForm = ({ initialValues, action, callback}) => {
           ios_backgroundColor="#3e3e3e"
           onValueChange={toggleSwitch}
           value={completed}
-        />  
+        />
       </CardSection>
 
       <Spacer>
