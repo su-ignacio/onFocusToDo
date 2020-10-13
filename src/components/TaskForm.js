@@ -29,6 +29,7 @@ const TaskForm = ({ initialValues, action, callback}) => {
           value={title}
           onChangeText={(text) => setTitle(text)}
           multiline={true}
+          placeholder={'Enter Description'}
         />
       </CardSection>
       <Spacer />
